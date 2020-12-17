@@ -7,7 +7,6 @@ def square_array(array)
     square_num = array[counter] * array[counter]
     square_array.push(square_num)
     counter += 1 
-    binding.pry
   end
   return square_array
 end
